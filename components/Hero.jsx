@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 function Hero() {
@@ -20,9 +21,11 @@ function Hero() {
               <button className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
                 Learn more
               </button>
+              <Link href="/register">
               <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
                 Sing Up
               </button>
+              </Link>
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
@@ -31,7 +34,7 @@ function Hero() {
               alt="hero"
               src="https://dummyimage.com/720x600"
             /> */}
-            <Image src="/hero.jpg" width={920} height={800} alt="hero"/>
+            <Image src="/hero.jpg" width={920} height={800} alt="hero" priority={true} />
           </div>
         </div>
       </section>
