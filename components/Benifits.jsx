@@ -33,7 +33,7 @@ function Benifits() {
               src="https://dummyimage.com/720x600"
             /> */}
 
-            <Image src='/benifits.jpg' width={720} height={600} />
+            <Image src='/benifits.jpg' width={720} height={600} alt="benifits"/>
           </div>
         </div>
       </section>

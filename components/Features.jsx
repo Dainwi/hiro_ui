@@ -12,7 +12,7 @@ function Features() {
     </div>
     <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
       <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Experience 24/7 Healthcare Support with Our AI Health Care Companion</h1>
-      <p className="mb-8 leading-relaxed">Our AI Health Care Companion provides round-the-clock support, ensuring you have access to healthcare information and assistance whenever you need it. With its advanced features, it's like having a personal healthcare assistant at your fingertips.</p>
+      <p className="mb-8 leading-relaxed">Our AI Health Care Companion provides round-the-clock support, ensuring you have access to healthcare information and assistance whenever you need it. With its advanced features, it&apos;s like having a personal healthcare assistant at your fingertips.</p>
       <div className="flex w-full md:justify-start justify-center items-end">
         <div className="relative mr-4 lg:w-full xl:w-1/2 w-2/4">
           {/* <label htmlFor="hero-field" className="leading-7 text-sm text-gray-600">Placeholder</label> */}

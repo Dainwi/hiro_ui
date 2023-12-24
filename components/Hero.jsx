@@ -14,7 +14,7 @@ function Hero() {
               Transforming Healthcare with AI Technology
             </h1>
             <p className="mb-8 leading-relaxed">
-            Discover a new era of personalized healthcare solutions powered by our advanced AI model.
+            Explore the cutting-edge advancements in personalized healthcare solutions, driven by our state-of-the-art AI technology. Experience a new era of innovation and precision in healthcare, tailored to meet your unique needs and preferences.
             </p>
             <div className="flex justify-center">
               <button className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
@@ -31,7 +31,7 @@ function Hero() {
               alt="hero"
               src="https://dummyimage.com/720x600"
             /> */}
-            <Image src="/hero.jpg" width={920} height={800}/>
+            <Image src="/hero.jpg" width={920} height={800} alt="hero"/>
           </div>
         </div>
       </section>
